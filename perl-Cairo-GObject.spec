@@ -15,23 +15,23 @@ Group:		Development/Languages/Perl
 Source0:	http://downloads.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	97661c82031ec0b2b6f4645508a9ee51
 URL:		http://gtk2-perl.sourceforge.net/
-BuildRequires:	cairo-devel >= 1.10.0
+BuildRequires:	cairo-gobject-devel >= 1.10.0
 BuildRequires:	perl-Cairo > 1.062
 BuildRequires:	perl-Glib-devel >= 1.224
 BuildRequires:	perl-ExtUtils-Depends >= 0.200
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.0
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	cairo >= 1.10.0
+Requires:	cairo-gobject >= 1.10.0
 Requires:	perl-Cairo > 1.062
 Requires:	perl-Glib >= 1.224
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module provides perl access to Cairo library.
+This module provides perl access to Cairo-GObject library.
 
 %description -l pl.UTF-8
-Ten moduł daje dostęp z poziomu Perla do biblioteki Cairo.
+Ten moduł daje dostęp z poziomu Perla do biblioteki Cairo-GObject.
 
 %prep
 %setup -q -n %{pnam}-%{version}
