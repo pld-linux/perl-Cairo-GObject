@@ -65,5 +65,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Cairo/GObject/Install
 %dir %{perl_vendorarch}/auto/Cairo/GObject
 %attr(755,root,root) %{perl_vendorarch}/auto/Cairo/GObject/GObject.so
-%{perl_vendorarch}/auto/Cairo/GObject/GObject.bs
 %{_mandir}/man3/Cairo::GObject.3pm*
