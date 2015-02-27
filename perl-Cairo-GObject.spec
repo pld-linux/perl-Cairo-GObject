@@ -16,10 +16,10 @@ Source0:	http://downloads.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	7e126a3424d9eab91b006b2a7ce09cb8
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	cairo-gobject-devel >= 1.10.0
-BuildRequires:	perl-Cairo >= 1.080
-BuildRequires:	perl-Glib-devel >= 1.224
+BuildRequires:	perl-Cairo-devel >= 1.080
 BuildRequires:	perl-ExtUtils-Depends >= 0.200
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.0
+BuildRequires:	perl-Glib-devel >= 1.224
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	cairo-gobject >= 1.10.0
