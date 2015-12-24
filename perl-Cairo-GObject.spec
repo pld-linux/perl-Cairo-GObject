@@ -9,7 +9,7 @@ Summary(pl.UTF-8):	Wiązania Cairo-GObject dla Perla
 Name:		perl-Cairo-GObject
 Version:	1.001
 # set real perl-Cairo version and bump to 0.1 when compatible perl-Cairo is released
-Release:	4
+Release:	5
 License:	LGPL v2.1+
 Group:		Development/Languages/Perl
 Source0:	http://downloads.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
