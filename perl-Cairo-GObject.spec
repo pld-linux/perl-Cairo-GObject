@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pnam	Cairo-GObject
 Summary:	Perl Cairo-GObject bindings
 Summary(pl.UTF-8):	Wiązania Cairo-GObject dla Perla
