@@ -6,12 +6,12 @@
 Summary:	Perl Cairo-GObject bindings
 Summary(pl.UTF-8):	Wiązania Cairo-GObject dla Perla
 Name:		perl-Cairo-GObject
-Version:	1.004
-Release:	6
+Version:	1.005
+Release:	1
 License:	LGPL v2.1+
 Group:		Development/Languages/Perl
 Source0:	http://downloads.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	cf8767c05a6797783e666db839d5d97a
+# Source0-md5:	a58c749a7d1bc6920499be0ac2dc7ee8
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	cairo-gobject-devel >= 1.10.0
 BuildRequires:	perl-Cairo-devel >= 1.080
@@ -20,6 +20,7 @@ BuildRequires:	perl-ExtUtils-PkgConfig >= 1.0
 BuildRequires:	perl-Glib-devel >= 1.224
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Requires:	cairo-gobject >= 1.10.0
 Requires:	perl-Cairo >= 1.080
 Requires:	perl-Glib >= 1.224
