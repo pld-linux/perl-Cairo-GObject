@@ -7,7 +7,7 @@ Summary:	Perl Cairo-GObject bindings
 Summary(pl.UTF-8):	Wiązania Cairo-GObject dla Perla
 Name:		perl-Cairo-GObject
 Version:	1.005
-Release:	4
+Release:	5
 License:	LGPL v2.1+
 Group:		Development/Languages/Perl
 Source0:	http://downloads.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
